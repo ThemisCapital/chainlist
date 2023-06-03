@@ -2404,6 +2404,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.SFTProtocol,
       },
+      {
+        url: "https://rpc.themis.capital/filecoin",
+        tracking: "unspecified",
+        trackingDetails: privacyStatement.themis.capital,
+      },
      "https://api.chain.love/rpc/v1",
     ],
   },
